@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
 
 
-(https://github.com/nagarajand1975/Angular_EmployeePortfolio/output.jpg)
+![alt text](https://github.com/nagarajand1975/Angular_EmployeePortfolio/blob/master/output.jpg)
 
 ## Live Demo
 [Employee Portfolio Finder] (https://nagarajand1975.github.io/Angular_EmployeePortfolio/)
