@@ -1,0 +1,25 @@
+
+
+nav{
+    background-color: crimson;
+    color:white;
+    padding:20px;
+}
+
+nav h1{
+    display: inline;
+}
+nav .menu{
+    list-style: none;
+    display: inline-flex;
+    float:right;
+}
+
+nav .menu li{
+    margin:20px;
+
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}

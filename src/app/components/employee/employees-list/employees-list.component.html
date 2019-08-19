@@ -1,0 +1,18 @@
+<div class="container">
+
+    <ul>
+        <li *ngFor='let e of employees'>
+            <a href="employeesdetails/{{e.id}}">
+            <div class="content">
+                <img src="{{e.picture}}" alt="" class="thumb">
+                <div class="details">
+                        <h5>{{e.firstName}} {{e.lastName}}</h5>
+                        <h6>{{e.title}}</h6>
+                        <p>{{e.email}}</p>
+                </div>
+            
+            </div>
+            </a>
+        </li>
+    </ul>
+</div>
