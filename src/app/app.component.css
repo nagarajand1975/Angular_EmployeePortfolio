@@ -1,23 +1,22 @@
 
-
 nav{
     background-color: crimson;
-    color:white;
-    padding:20px;
 }
 
-nav h1{
-    display: inline;
-}
-nav .menu{
-    list-style: none;
-    display: inline-flex;
-    float:right;
+nav .container{
+    background-color: crimson;
+    color:black;
+    padding:5px;
 }
 
-nav .menu li{
+
+li{
     margin:20px;
 
+}
+
+p{
+    color: white;
 }
 nav a{
     text-decoration: none;

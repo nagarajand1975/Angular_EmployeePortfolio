@@ -11,26 +11,19 @@ import { ActivatedRoute } from "@angular/router";
 export class EmployeesDetailsComponent implements OnInit {
   
   public _id:any;
-  public employee:Object={
-    firstName:'',
-    lastName:'',
-    title:'' ,
-    phone:'456',
-    mobilePhone:'123',
-    email:'',
-    picture:''
-  };
+  public employee:any;
 
   constructor(private http: EmployeesService, private route: ActivatedRoute) { 
     this._id = this.route.snapshot.paramMap.get("id");
 
-    this.http.getEmployee(this._id).subscribe((data) => {
-      this.employee = data;
-    });
+    
   }
 
   ngOnInit() {
    
+    this.http.getEmployee(this._id).subscribe(data => {
+      this.employee = data;
+    });
 
   }
   
