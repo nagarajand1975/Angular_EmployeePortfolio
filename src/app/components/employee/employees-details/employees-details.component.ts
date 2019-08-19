@@ -14,7 +14,11 @@ export class EmployeesDetailsComponent implements OnInit {
   public employee:Object={
     firstName:'',
     lastName:'',
-    title:'' 
+    title:'' ,
+    phone:'456',
+    mobilePhone:'123',
+    email:'',
+    picture:''
   };
 
   constructor(private http: EmployeesService, private route: ActivatedRoute) { 

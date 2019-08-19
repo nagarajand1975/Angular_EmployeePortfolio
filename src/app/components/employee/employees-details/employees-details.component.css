@@ -1,0 +1,37 @@
+.container{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+    width:300px;
+    height:500px;
+    overflow: hidden;
+    border:2px solid gray;
+    box-shadow: 0px 5px 20px black;
+    background-color:#37474F;
+    color:white;
+    text-align: center;
+    
+}
+p{
+    margin:0;
+    padding:2px;
+}
+.card img{
+    width:300px;
+    height:300px;
+}
+
+p i{
+    padding:5px;
+    color:white;
+}.datas{
+    opacity:0.8;
+}
+#Name{
+    padding-top:20px;
+    font-size: 30px;
+}

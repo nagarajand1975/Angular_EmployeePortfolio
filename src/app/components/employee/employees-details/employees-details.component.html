@@ -1,8 +1,18 @@
 <div class="container">
 
-    <p>
-        Employee Details
-    </p>
-    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
 
+                <img src="{{employee.picture}}" alt="">
+                <p id="Name">{{employee.firstName}} {{employee.lastName}}</p>
+                <p>{{employee.title}}</p>
+                <p class="datas"><i class="fa fa-phone" aria-hidden="true"></i>{{employee.mobilePhone}}</p>
+                <p class="datas"><i class="fa fa-mobile" aria-hidden="true"></i>{{employee.mobilePhone}}</p>
+                <p class="datas"><i class="fa fa-envelope" aria-hidden="true"></i>{{employee.email}}</p>
+
+            </div>
+        </div>
+    </div>
+    
 </div>
